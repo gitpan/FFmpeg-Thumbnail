@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               FFmpeg-Thumbnail
-version:            0.01
+version:            0.02
 abstract:           Create a thumbnail from a video
 author:
     - Brian Sauls <bbqsauls@cpan.org>
@@ -14,7 +14,7 @@ requires:
     Capture::Tiny:    0.01
     FFmpeg::Command:  0.15
     Moose:            1.14
-    Regexp::Common:   2.111
+    Scalar::Util:     0
     Test::More:       0
 no_index:
     directory:
